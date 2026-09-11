@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/trulink-india.png" alt="TRULINK Networking Solutions" width="180">
+  
   <h1>TRULINK</h1>
   <p><strong>Technology, Networking &amp; Security System Solutions</strong></p>
   <p>
