@@ -1,15 +1,14 @@
-<p align="center">
-  <img src="assets/trulink-banner.svg" alt="TRULINK — Technology, Networking &amp; Security System Solutions" width="100%">
-</p>
-
-<p align="center">
-  <a href="https://trulink.in"><img src="https://img.shields.io/badge/Website-trulink.in-E10600?style=for-the-badge" alt="Website"></a>
-  <a href="tel:+919625862001"><img src="https://img.shields.io/badge/Call-+91%2096258%2062001-111111?style=for-the-badge" alt="Call TRULINK"></a>
-  <a href="mailto:info@trulink.in"><img src="https://img.shields.io/badge/Email-info%40trulink.in-111111?style=for-the-badge" alt="Email TRULINK"></a>
-  <a href="https://wa.me/919625862001?text=Hello%20TRULINK,%20I%20need%20information%20about%20your%20services"><img src="https://img.shields.io/badge/WhatsApp-Chat-25D366?style=for-the-badge" alt="WhatsApp"></a>
-</p>
-
-# TRULINK
+<div align="center">
+  <img src="https://github.com/trulink-india.png" alt="TRULINK Networking Solutions" width="180">
+  <h1>TRULINK</h1>
+  <p><strong>Technology, Networking &amp; Security System Solutions</strong></p>
+  <p>
+    <a href="https://trulink.in"><img src="https://img.shields.io/badge/Website-trulink.in-E10600?style=for-the-badge" alt="Website"></a>
+    <a href="tel:+919625862001"><img src="https://img.shields.io/badge/Call-+91%2096258%2062001-111111?style=for-the-badge" alt="Call TRULINK"></a>
+    <a href="mailto:info@trulink.in"><img src="https://img.shields.io/badge/Email-info%40trulink.in-111111?style=for-the-badge" alt="Email TRULINK"></a>
+    <a href="https://wa.me/919625862001?text=Hello%20TRULINK,%20I%20need%20information%20about%20your%20services"><img src="https://img.shields.io/badge/WhatsApp-Chat-25D366?style=for-the-badge" alt="WhatsApp"></a>
+  </p>
+</div>
 
 **TRULINK Networking Solutions** is a Gurgaon-based IT infrastructure company for homes, offices, shops, and commercial sites. We design, supply, install, and maintain the networks and security systems that keep a building connected and protected.
 
@@ -105,9 +104,7 @@ Book a consultation, a service visit, or a security audit from [trulink.in](http
 ---
 
 <p align="center">
-  <img src="assets/trulink-mark.svg" alt="TRULINK mark" width="48" height="48">
+  <img src="https://github.com/trulink-india.png" alt="TRULINK" width="48" height="48">
   <br>
   <sub>© 2023–2026 TRULINK. All rights reserved.</sub>
 </p>
-
----
