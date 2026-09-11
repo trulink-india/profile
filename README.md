@@ -111,18 +111,3 @@ Book a consultation, a service visit, or a security audit from [trulink.in](http
 </p>
 
 ---
-
-### Show this on [github.com/trulink-india](https://github.com/trulink-india)
-
-GitHub reads the organization Overview from a public repo named [`.github`](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile), file `profile/README.md`.
-
-1. Create a public repository **`.github`** under the `trulink-india` organization (or copy these files into the existing `profile` repo and keep `profile/README.md`).
-2. Keep this layout:
-
-```text
-profile/README.md    ← rendered on the org Overview
-assets/              ← banner and mark used by the README
-README.md            ← same company profile for this repository
-```
-
-3. After the first push, open [github.com/trulink-india](https://github.com/trulink-india) and confirm the Overview tab shows the TRULINK profile.
