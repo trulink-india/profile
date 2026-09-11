@@ -73,6 +73,6 @@ India
 
 ---
 
-### © Trulink
+### © trulink-india
 
 Technology that connects. Security that protects.
