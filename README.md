@@ -61,15 +61,13 @@ Custom networking and security work for sites with different compliance and upti
 
 ## Brands we install
 
-We specify and install equipment from vendors our technicians support in the field, including **TP-Link**, **Hikvision**, **D-Link**, and **CP Plus**.
+We specify and install equipment from vendors our technicians support in the field, including **TP-Link**, **Ubiquiti**, **aruba**, **D-Link**, **Hikvision**, and **CP Plus**.
 
 ---
 
 ## Service area
 
 Headquartered in **Gurgaon, Haryana**, with active work across **Gurgaon, Delhi, Noida**, and the wider NCR.
-
-**Shop No. 4, Near Orchid, Sector 48, Gurgaon, Haryana 122018, India**
 
 ---
 
