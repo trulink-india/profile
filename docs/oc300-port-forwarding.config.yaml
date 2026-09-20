@@ -1,0 +1,87 @@
+# TRULINK — OC300 port forwarding site sheet
+# Fill this on site, then create matching NAT rules on the controller-site gateway.
+# Do not commit real public IPs, passwords, or customer names to git.
+
+site:
+  customer: ""
+  controller_site: ""
+  technician: ""
+  date: ""
+
+controller:
+  model: OC300
+  # DHCP reservation recommended. Fallback IP if DHCP fails: 192.168.0.253
+  lan_ip: "192.168.0.253"
+  https_port: 443
+  http_port: 80
+  # Use a hostname if the WAN IP is dynamic (No-IP / DuckDNS / ISP DDNS).
+  inform_host: "oc300.example.com"
+  wan_ip: ""
+  wan_interface: "WAN"
+  notes: ""
+
+# Create these rules on the gateway IN FRONT of the OC300.
+# Source port and destination port must stay the same for 29810–29817.
+rules:
+  - name: OC300-Discovery
+    enabled: true
+    protocol: UDP
+    source_ip: Any          # Prefer Limited IP if remote sites have static WAN IPs
+    wan_interface: WAN
+    source_port: 29810
+    destination_ip: "${controller.lan_ip}"
+    destination_port: 29810
+    purpose: Device discovery
+
+  - name: OC300-Device-Mgmt
+    enabled: true
+    protocol: TCP
+    source_ip: Any
+    wan_interface: WAN
+    source_port: "29811-29817"
+    destination_ip: "${controller.lan_ip}"
+    destination_port: "29811-29817"
+    purpose: Adoption, management, upgrade, transfer, RTTY, v6 monitoring
+
+  - name: OC300-HTTPS
+    enabled: true
+    protocol: TCP
+    source_ip: Any
+    wan_interface: WAN
+    source_port: 443
+    destination_ip: "${controller.lan_ip}"
+    destination_port: 443
+    purpose: HTTPS management and remote device firmware upgrades
+
+  # Optional. Leave disabled unless guest portal must be reachable from the internet.
+  - name: OC300-Portal-HTTPS
+    enabled: false
+    protocol: TCP
+    source_ip: Any
+    wan_interface: WAN
+    source_port: 8843
+    destination_ip: "${controller.lan_ip}"
+    destination_port: 8843
+    purpose: Guest portal HTTPS
+
+do_not_forward:
+  - TCP/80          # HTTP management — keep LAN-only
+  - UDP/27001       # Omada app LAN discovery
+  - TCP/27217       # MongoDB (software controller only; never expose)
+
+remote_device_inform:
+  url: "http://${controller.inform_host}:29810"
+  # On gateways: System Tools > Controller Settings > Controller Inform URL
+  # On switches: SYSTEM > Controller Settings > Controller Inform URL
+  # On EAPs: System > Controller Settings > Controller Inform URL
+  # Switch CLI: controller inform-url <host>
+  # EAP CLI: xsetctrladdr "<host>:29810"
+  dhcp_option_138: "${controller.inform_host}"
+
+checks:
+  public_ip_not_cgnat: false
+  dhcp_reservation_set: false
+  rules_enabled: false
+  inform_url_set_on_remote: false
+  devices_pending_or_connected: false
+  remote_firmware_upgrade_ok: false
