@@ -63,6 +63,8 @@ Custom networking and security work for sites with different compliance and upti
 
 We specify and install equipment from vendors our technicians support in the field, including **TP-Link**, **Ubiquiti**, **aruba**, **D-Link**, **Hikvision**, and **CP Plus**.
 
+For TP-Link Omada hardware controllers, use the [OC300 port forwarding field sheet](docs/oc300-port-forwarding.md) when remote sites must be adopted across the internet.
+
 ---
 
 ## Service area
