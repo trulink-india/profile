@@ -97,6 +97,10 @@ Headquartered in **Gurgaon, Haryana**, with active work across **Gurgaon, Delhi,
 | **Google** | [Business profile](https://g.page/r/CYRsGEhnWsBnEBE) |
 | **GitHub** | [github.com/trulink-india](https://github.com/trulink-india) |
 
+### MOTO24 GBP ↔ Google Ads (846-367-3842)
+
+Cross-Business-Manager location ownership is not supported by Google. To use the MOTO24 Business Profile with Ads customer **846-367-3842** without moving BM ownership or changing Ads IDs, see [`gbp-ads-link/`](./gbp-ads-link/) (OAuth + location sync tool) and follow manager-access / Ads location-link approval — do not add the listing to a second Business Manager.
+
 Book a consultation, a service visit, or a security audit from [trulink.in](https://trulink.in/#contact).
 
 ---

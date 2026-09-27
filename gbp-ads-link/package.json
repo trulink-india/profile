@@ -1,0 +1,29 @@
+{
+  "name": "@moto24/gbp-ads-link",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Google Business Profile access + Google Ads location sync for MOTO24 → Ads 846-367-3842 (trulink.in)",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "node --import tsx --test src/__tests__/*.test.ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "status": "tsx src/cli.ts status",
+    "request-access": "tsx src/cli.ts request-access",
+    "sync": "tsx src/cli.ts sync",
+    "check-access": "tsx src/cli.ts check-access"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "google-auth-library": "^9.15.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}
