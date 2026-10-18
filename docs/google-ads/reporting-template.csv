@@ -1,0 +1,20 @@
+period,metric,value,source,note
+2026-10-01..2026-10-18,Spend (INR),1047.82,Google Ads,From screenshot; verify in account
+2026-10-01..2026-10-18,Impressions,558,Google Ads,From screenshot; verify in account
+2026-10-01..2026-10-18,Clicks,50,Google Ads,From screenshot; verify in account
+2026-10-01..2026-10-18,CTR %,8.96,Calculated,Clicks / Impressions x 100
+2026-10-01..2026-10-18,Average CPC (INR),20.96,Calculated,Spend / Clicks
+2026-10-01..2026-10-18,Recorded conversions (Google Ads),2,Google Ads,Source of conversions UNVERIFIED; not leads
+2026-10-01..2026-10-18,Conversion rate %,4.00,Calculated,Recorded conversions / Clicks x 100
+2026-10-01..2026-10-18,Cost per recorded conversion (INR),523.91,Calculated,Spend / Recorded conversions; not cost per lead
+2026-10-01..2026-10-18,Verified phone calls,Not enough verified data,CRM,No call log supplied
+2026-10-01..2026-10-18,Qualified WhatsApp enquiries,Not enough verified data,CRM,No lead log supplied
+2026-10-01..2026-10-18,Successful form submissions,Not enough verified data,CRM,No tracking in place
+2026-10-01..2026-10-18,Total genuine leads,Not enough verified data,CRM,
+2026-10-01..2026-10-18,Qualified leads,Not enough verified data,CRM,
+2026-10-01..2026-10-18,Unqualified lead rate %,Not enough verified data,CRM,
+2026-10-01..2026-10-18,Cost per genuine lead (INR),Not enough verified data,Calculated,Spend / genuine leads
+2026-10-01..2026-10-18,Cost per qualified lead (INR),Not enough verified data,Calculated,Spend / qualified leads
+2026-10-01..2026-10-18,Completed jobs,Not enough verified data,CRM,
+2026-10-01..2026-10-18,Cost per acquired customer (INR),Not enough verified data,Calculated,Spend / completed jobs
+2026-10-01..2026-10-18,Lead-to-job conversion %,Not enough verified data,Calculated,Completed jobs / qualified leads x 100
