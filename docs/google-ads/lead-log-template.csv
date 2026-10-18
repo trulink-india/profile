@@ -1,0 +1,2 @@
+lead_id,date,time_ist,channel,source_campaign,ad_group,service_requested,area,qualification,estimated_value_inr_voluntary,follow_up_status,outcome,gclid_ref,notes
+L-0001,,,call|whatsapp|form,,,,,A_qualified|B_potential|C_unqualified|D_converted,,new|contacted|survey_booked|quoted|closed,won|lost|no_response|spam,,

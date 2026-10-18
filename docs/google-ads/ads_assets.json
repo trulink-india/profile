@@ -1,0 +1,234 @@
+{
+  "_meta": {
+    "status": "DRAFT - not published, not approved by Google Ads, not approved by the owner",
+    "limits": { "headline": 30, "description": 90, "path": 15, "min_headlines": 3, "max_headlines": 15, "min_descriptions": 2, "max_descriptions": 4 },
+    "pinning": "No headline or description is pinned. Pinning reduces the number of ad combinations Google can test.",
+    "rules_applied": [
+      "No 'free' survey/visit wording: the published Visit Charge Policy (trulink.in/policy/visit-charge) charges Rs 399-999 per visit.",
+      "No 24/7, No.1, best, trusted, certified, guaranteed, lowest price, authorised/partner, years/projects-count claims (none verified).",
+      "No exclamation marks in headlines (Editorial policy).",
+      "No manufacturer names other than where the shop demonstrably sells/installs them and the ad does not imply authorisation."
+    ]
+  },
+  "ads": [
+    {
+      "id": "A1",
+      "ad_group": "CCTV Installation Gurgaon",
+      "variation": "Installation / quotation intent",
+      "final_url": "https://trulink.in/services/cctv-installation",
+      "path1": "CCTV",
+      "path2": "Gurgaon",
+      "rationale": "Targets people ready to buy an installation; the landing page H1, title and CTAs match.",
+      "claims_needing_owner_verification": [
+        "Quotation is shared before installation work starts (README engagement flow says so; confirm it is standard practice)."
+      ],
+      "headlines": [
+        "CCTV Installation in Gurgaon",
+        "IP Camera & NVR Setup",
+        "Home, Shop & Office CCTV",
+        "Site Visit Before Installation",
+        "Camera Positions Planned",
+        "Cabling, Cameras & Recording",
+        "Call or WhatsApp Trulink",
+        "Get a CCTV Project Quote",
+        "Gurgaon CCTV Installers",
+        "NVR Setup & Handover",
+        "Live View on Your Phone",
+        "Trulink Networking Solutions",
+        "Request a CCTV Quotation",
+        "Technician Visit in Gurgaon",
+        "Office CCTV Installation"
+      ],
+      "descriptions": [
+        "IP camera and NVR installation with cabling for homes, shops and offices in Gurgaon.",
+        "A technician visits to plan camera positions. Visit charge applies; see our policy.",
+        "Call or WhatsApp your address and camera count to request a quotation.",
+        "Recorder and phone app set up and handed over after the installation."
+      ]
+    },
+    {
+      "id": "A2",
+      "ad_group": "CCTV Installation Gurgaon",
+      "variation": "Existing system / fault-check intent",
+      "final_url": "https://trulink.in/services/cctv-installation",
+      "path1": "CCTV",
+      "path2": "Service",
+      "rationale": "Captures repair / not-working searches. Only run after the owner confirms CCTV repair and fault-checking is offered as a service (the Visit Charge Policy mentions fault checking; the CCTV page does not mention repair).",
+      "claims_needing_owner_verification": [
+        "CCTV repair / fault checking / maintenance is offered for systems Trulink did not install.",
+        "Which camera brands can be serviced."
+      ],
+      "headlines": [
+        "CCTV Camera Not Working?",
+        "CCTV Fault Checking Gurgaon",
+        "DVR & NVR Troubleshooting",
+        "Camera Offline or No Display",
+        "Technician Visit for CCTV",
+        "CCTV Service in Gurgaon",
+        "Visit Charge Shown Upfront",
+        "Describe the Fault on Call",
+        "Book a CCTV Technician",
+        "Recording & Viewing Issues",
+        "Trulink Networking Solutions",
+        "Call or WhatsApp Trulink",
+        "Home & Office CCTV Service",
+        "Camera Cabling Checks",
+        "Quote Shared After Inspection"
+      ],
+      "descriptions": [
+        "Cameras offline or not recording? Book a technician to inspect your CCTV in Gurgaon.",
+        "Visit charge applies per our policy. Repair or material cost is quoted separately.",
+        "Call or WhatsApp the fault and your area. We confirm the visit charge when booking.",
+        "Fault checks for DVR, NVR, camera cabling and phone viewing setup at your premises."
+      ]
+    },
+    {
+      "id": "B1",
+      "ad_group": "Office LAN & Structured Cabling",
+      "variation": "Office deployment / project intent",
+      "final_url": "https://trulink.in/services/networking-solutions",
+      "path1": "Office-LAN",
+      "path2": "Gurgaon",
+      "rationale": "Commercial intent: new office fit-outs, extra data points, racks and switches. Landing page covers exactly these items.",
+      "claims_needing_owner_verification": [
+        "Cat6 / Cat6A and labelling standards used (page says 'Cat6-style runs'; README says CAT6, CAT6A, fibre).",
+        "Minimum project size, if any."
+      ],
+      "headlines": [
+        "Office LAN Cabling Gurgaon",
+        "Structured Cabling for Offices",
+        "Network Rack & Switch Setup",
+        "New Office Network Setup",
+        "Extra Data Points for Offices",
+        "Request a Network Survey",
+        "Get a Cabling Quotation",
+        "Labelled LAN Termination",
+        "Business Network Setup",
+        "Cabling Before Fit-Out Ends",
+        "Switch-Based Office LAN",
+        "Trulink Networking Solutions",
+        "Call or WhatsApp Trulink",
+        "Gurgaon Office Networking",
+        "Rack, Switch & Outlet Survey"
+      ],
+      "descriptions": [
+        "LAN and structured cabling for Gurgaon offices: switches, racks, outlets and handover.",
+        "Site survey of rack, switch and outlet positions. Visit charge applies per our policy.",
+        "Planning a new office or extra points? Call or WhatsApp to request a quotation.",
+        "Termination, labelling and basic connectivity checks on every installed point."
+      ]
+    },
+    {
+      "id": "B2",
+      "ad_group": "Office LAN & Structured Cabling",
+      "variation": "Small business / expansion intent",
+      "final_url": "https://trulink.in/services/networking-solutions",
+      "path1": "Network",
+      "path2": "Setup",
+      "rationale": "Reaches shops and small offices that have outgrown a single router; lower-ticket but higher-volume intent than B1.",
+      "claims_needing_owner_verification": [
+        "Small shops are within the target customer profile and minimum job value."
+      ],
+      "headlines": [
+        "Shop & Small Office Network",
+        "Outgrown Your Router?",
+        "Wired Network for Your Office",
+        "Add Cabin or Printer Points",
+        "Switch & Cabling Installation",
+        "LAN Planned Around Your ISP",
+        "Network Survey in Gurgaon",
+        "Book a Network Technician",
+        "Printers, PCs & Cameras on LAN",
+        "Request a LAN Quotation",
+        "Trulink Networking Solutions",
+        "Call or WhatsApp Trulink",
+        "Tidy Switch & Rack Termination",
+        "Office Cabling Installation",
+        "Gurgaon Business Networking"
+      ],
+      "descriptions": [
+        "Switch-based LAN for shops and offices that need more than one router can handle.",
+        "Extra data points for a new cabin, printer or camera, installed and checked on site.",
+        "Share your address and requirement on call or WhatsApp. Visit charge per our policy.",
+        "Cabling planned around the internet line you already have and devices that must stay on."
+      ]
+    },
+    {
+      "id": "C1",
+      "ad_group": "Enterprise Wi-Fi & Omada",
+      "variation": "Office / business Wi-Fi deployment intent",
+      "final_url": "https://trulink.in/services/wifi-solutions",
+      "path1": "Office-WiFi",
+      "path2": "Gurgaon",
+      "rationale": "Business Wi-Fi coverage and access-point installs. Landing page is currently generic/educational; improve it before scaling spend (see audit).",
+      "claims_needing_owner_verification": [
+        "Business Wi-Fi design, access-point deployment and site surveys are offered (wifi page says so).",
+        "Guest Wi-Fi / captive portal capability (page mentions secure guest WiFi)."
+      ],
+      "headlines": [
+        "Office Wi-Fi Installation",
+        "Access Point Installation",
+        "Wi-Fi Coverage Site Survey",
+        "Business Wi-Fi in Gurgaon",
+        "Fix Weak Wi-Fi in Your Office",
+        "Mesh & Access Point Setup",
+        "Wireless Network Design",
+        "Guest Wi-Fi for Your Business",
+        "Request a Wi-Fi Survey",
+        "Get a Wi-Fi Quotation",
+        "Trulink Networking Solutions",
+        "Call or WhatsApp Trulink",
+        "Wired Backbone + Wi-Fi",
+        "Gurgaon Wi-Fi Installers",
+        "Dead-Zone Troubleshooting"
+      ],
+      "descriptions": [
+        "Business Wi-Fi design and access point installation for offices and shops in Gurgaon.",
+        "Site survey to find dead zones and plan access point positions. Visit charge applies.",
+        "Tell us your floor size and user count on call or WhatsApp to request a quotation.",
+        "Mesh, access point and router setup with a wired backbone where the site needs it."
+      ]
+    },
+    {
+      "id": "C2",
+      "ad_group": "Enterprise Wi-Fi & Omada",
+      "variation": "TP-Link Omada deployment (HOLD until owner confirms)",
+      "final_url": "https://trulink.in/services/wifi-solutions",
+      "path1": "Omada",
+      "path2": "Wi-Fi",
+      "rationale": "Brand-specific searchers are usually specifying a project. HOLD: Omada installation capability is not verified on the public site (only TP-Link EAP products are listed in the shop). Does not imply TP-Link authorisation.",
+      "claims_needing_owner_verification": [
+        "Trulink actually deploys and configures TP-Link Omada (controller, access points, switches, gateways).",
+        "Trulink is NOT claiming to be an authorised TP-Link partner unless it holds proof.",
+        "A landing page section describing Omada work exists before this ad runs."
+      ],
+      "headlines": [
+        "TP-Link Omada Installation",
+        "Omada Access Point Setup",
+        "Omada Wi-Fi for Offices",
+        "Omada Switch & AP Config",
+        "Omada Controller Setup",
+        "Omada Deployment in Gurgaon",
+        "Request an Omada Quotation",
+        "Site Survey Before Install",
+        "Gurgaon Network Deployment",
+        "Trulink Networking Solutions",
+        "Call or WhatsApp Trulink",
+        "Wired + Wireless Setup",
+        "Office Network Deployment",
+        "Multi-AP Wi-Fi Planning",
+        "Omada Site Survey Request"
+      ],
+      "descriptions": [
+        "TP-Link Omada access point and switch setup for Gurgaon offices. Independent installer.",
+        "Share your floor plan, user count and AP model on call or WhatsApp for a quotation.",
+        "Controller setup, SSIDs and VLAN-ready configuration for business Wi-Fi networks.",
+        "Survey before installation. Visit charge applies per our published policy."
+      ]
+    }
+  ],
+  "ad_group_D_firewall": {
+    "status": "NOT DRAFTED - deferred",
+    "reason": "No firewall landing page exists; README lists 'Firewall & gateway' generically; no vendor expertise (FortiGate, Sophos, Cisco) is verified; budget Rs 200/day cannot support a fourth ad group. Revisit after owner confirmation and 60+ clicks of evidence in groups A-C."
+  }
+}
