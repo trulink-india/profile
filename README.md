@@ -101,6 +101,24 @@ Book a consultation, a service visit, or a security audit from [trulink.in](http
 
 ---
 
+## MOTO24 web icons
+
+Minimal static assets under [`public/`](public/) for favicon and mobile home-screen / PWA icons. **Both use the same MOTO24 logo artwork** (square-padded; not a simplified alternate mark):
+
+| Asset | Path |
+| --- | --- |
+| Multi-size favicon | `public/favicon.ico` (16 / 32 / 48) |
+| PNG favicons | `public/favicon-16x16.png`, `public/favicon-32x32.png` |
+| Apple touch icon | `public/apple-touch-icon.png` (180×180) |
+| Android / PWA | `public/android-chrome-192x192.png`, `public/android-chrome-512x512.png` |
+| Web app manifest | `public/site.webmanifest` |
+| Head wiring demo | `public/index.html` |
+| Source logo copy | `public/moto24-logo.jpg` |
+
+Serve `public/` as the site root (or copy these files into your app’s static directory) so the `<link rel="icon">`, `apple-touch-icon`, and manifest icons resolve.
+
+---
+
 <p align="center">
   <img src="https://github.com/trulink-india.png" alt="TRULINK" width="48" height="48">
   <br>
