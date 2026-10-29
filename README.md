@@ -113,7 +113,7 @@ Minimal static assets under [`public/`](public/) for favicon and mobile home-scr
 | Android / PWA | `public/android-chrome-192x192.png`, `public/android-chrome-512x512.png` |
 | Web app manifest | `public/site.webmanifest` |
 | Head wiring demo | `public/index.html` |
-| Source logo copy | `public/moto24-logo.jpg` |
+| Source logo copy | `public/moto24-logo.png` |
 
 Serve `public/` as the site root (or copy these files into your app’s static directory) so the `<link rel="icon">`, `apple-touch-icon`, and manifest icons resolve.
 
